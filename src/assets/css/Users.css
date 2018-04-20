@@ -1,0 +1,13 @@
+
+.normal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.red_text{
+  color: red;
+}
+
+.blue_text {
+  color: blue;
+}
