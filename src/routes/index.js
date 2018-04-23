@@ -1,5 +1,5 @@
 import IndexPage from './IndexPage.js';
-import Users from './Users.js';
+import Users from './UsersPage.js';
 
 export const routes = [
   { component: IndexPage, path: '/' },
