@@ -32,7 +32,7 @@ function Users({ list: dataSource, total, page: current }) {
       render: (text, { id }) => (
         <span className={styles.operation}>
           <a href="">Edit</a>
-          <Popconfirm title="Confirm to delete?" onConfirm={deleteHandler.bind(null, id)}>
+          <Popconfirm title="Confirm to delete?" onConfirm={() => deleteHandler(id)}>
             <a href="">Delete</a>
           </Popconfirm>
         </span>
